@@ -1,0 +1,51 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #dbdbdb4d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px; /* Ajusta el valor para redondear las esquinas */
+}
+
+h2.text-untitle {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Estilo adicional para los enlaces */
+li {
+    flex-grow: 1; /* Hacer que cada li ocupe el espacio disponible */
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    display: block; /* Para ocupar todo el espacio del li */
+    text-align: center;
+    border: 10px solid transparent; /* Contorno transparente */
+    margin: 0px; /* Margen para separar el contorno del navbar */
+    transition: color 0.3s, background-color 0.3s; /* Transición de cambio de color de letras y fondo */
+}
+
+/* Hover effect para los enlaces */
+li a:hover {
+    border-radius: 5px;
+    color: #333; /* Cambiar el color de las letras al pasar el ratón sobre el enlace */
+    background-color: #e9fcfa; /* Cambiar el color de fondo al pasar el ratón sobre el enlace */
+    border-color: #e9fcfa; /* Cambiar el color del contorno al pasar el ratón sobre el enlace */
+}
+/* Estilo para el pie de página */
+footer {
+    color: #fff;
+}
